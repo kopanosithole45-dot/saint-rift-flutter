@@ -1,0 +1,39 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/build": true,
+        "**/.dart_tool": true,
+        "**/.flutter-plugins": true,
+        "**/.flutter-plugins-dependencies": true,
+        "**/.packages": true,
+        "**/.pub-cache": true,
+        "**/.pub": true,
+        "**/coverage": true
+    },
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "Dart-Code.dart-code",
+        "editor.codeActionsOnSave": {
+            "source.fixAll.dart": true
+        }
+    },
+    "search.exclude": {
+        "**/.git": true,
+        "**/.github": true,
+        "**/.gradle": true,
+        "**/build": true,
+        "**/ios": true,
+        "**/android": true,
+        "**/.dart_tool": true,
+        "**/.flutter-plugins": true,
+        "**/.flutter-plugins-dependencies": true,
+        "**/.packages": true,
+        "**/.pub-cache": true,
+        "**/.pub": true,
+        "**/coverage": true
+    }
+}

@@ -1,0 +1,3 @@
+include ':app'
+
+setProjectDir(new File(rootDir, 'app'))
