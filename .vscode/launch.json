@@ -1,12 +1,67 @@
 {
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "name": "Flutter",
-            "type": "dart",
-            "request": "launch",
-            "program": "lib/main.dart",
-            "console": "integratedTerminal"
-        }
-    ]
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Flutter: Chrome",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "deviceId": "chrome",
+      "toolArgs": [
+        "-d",
+        "chrome"
+      ],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Flutter: Edge",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "deviceId": "edge",
+      "toolArgs": [
+        "-d",
+        "edge"
+      ],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Flutter: Firefox",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "deviceId": "firefox",
+      "toolArgs": [
+        "-d",
+        "firefox"
+      ],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Flutter: Web (Port 8080)",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "deviceId": "chrome",
+      "toolArgs": [
+        "-d",
+        "chrome",
+        "--web-port=8080"
+      ],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Flutter: Web Debug",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "deviceId": "chrome",
+      "toolArgs": [
+        "-d",
+        "chrome",
+        "--verbose"
+      ],
+      "console": "integratedTerminal"
+    }
+  ]
 }
